@@ -1,0 +1,48 @@
+/* GDG / Google Color Variables */
+:root {
+  --google-blue: #4285f4;
+  --google-red: #ea4335;
+  --google-yellow: #fbbc04;
+  --google-green: #34a853;
+
+  /* Dark Mode Variables */
+  --bg-body: #202124;
+  --bg-card: #303134;
+  --bg-card-hover: #3c4043;
+  --text-main: #e8eaed;
+  --text-muted: #9aa0a6;
+  --shadow: rgba(0, 0, 0, 0.5);
+  --border-color: #5f6368;
+}
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: var(--text-main);
+  background-color: var(--bg-body);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+.header-badge {
+  font-family: "Roboto", sans-serif;
+}
+
+/* 
+  TODO: Live Coding Session Styles
+  
+  We will add styles for:
+  - Header
+  - Container
+  - Sections (About, Skills, Projects, Contact)
+  - Footer
+*/
